@@ -1,13 +1,11 @@
-
+import AppLayout from './components/layout/AppLayout';
 import './App.css'
 
 function App() {
 
   return (
     <>
-      <div>
-        <h2>Blackcoffer Dashboard</h2>
-      </div>
+      <AppLayout />
     </>
   )
 }
